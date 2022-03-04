@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0007</id>
+        <brand>Уан Плюс</brand>
+        <model number="W301GB">Часновник</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageOnePlus.jpeg</frontImage>
+            <sideImage>Images/sideImageOnePlus.jpeg</sideImage>
+            <onHandImage>Images/onHandOnePlus.jpeg</onHandImage>
+        </gallery>
+        <price currency="Лева">310</price>
+        <colourWatch>Среднощно черно </colourWatch>
+        <storage>4ГБ</storage>
+        <RAM>1ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>44мм</size>
+                <type>AMOLED</type>
+                <resolution>454x454</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Кръгъл</shape>
+            <weight>45 грама</weight>
+            <caseMaterial>Алуминив корпус, пластмасов гръб</caseMaterial>
+        </body>
+        <features ECG="Не" BloodO2="Да">
+            <battery>
+                <capacity>402 мАч</capacity>
+                <hoursRated>168 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Snapdragon</CPU>
+            <OS compatibility="iOS и Android устройства" version="1">OnePlus Watch OS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 b/g/n</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Не поддържа</payment>
+            <NFC>Не</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Регулируема</sizing>
+            <materialBand>Силиконова</materialBand>
+            <colour>Черно</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+</smartwatchCatalog>

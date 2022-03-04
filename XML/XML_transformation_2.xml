@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><countries>
+    <smartwatch>
+        <brandAndModel>Епъл  Уоч Серия 6</brandAndModel>
+        <priceAndCurrency>899 Лева</priceAndCurrency>
+        <year>2020</year>
+        <features>
+            <OSVersion>8.3</OSVersion>
+            <OSCompatibility>iOS устройства</OSCompatibility>
+        </features>
+        <band>
+            <bandChangeable>Да</bandChangeable>
+            <colour>Черен</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+    <smartwatch>
+        <brandAndModel>Самсунг Галакси Уоч 4</brandAndModel>
+        <priceAndCurrency>450 Лева</priceAndCurrency>
+        <year>2021</year>
+        <features>
+            <OSVersion>3</OSVersion>
+            <OSCompatibility>Android устройства</OSCompatibility>
+        </features>
+        <band>
+            <bandChangeable>Да</bandChangeable>
+            <colour>Бял</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+    <smartwatch>
+        <brandAndModel>Епъл   Уоч Серия 7</brandAndModel>
+        <priceAndCurrency>750 Евро</priceAndCurrency>
+        <year>2021</year>
+        <features>
+            <OSVersion>8.3</OSVersion>
+            <OSCompatibility>iOS устройства</OSCompatibility>
+        </features>
+        <band>
+            <bandChangeable>Да</bandChangeable>
+            <colour>Кафяв</colour>
+            <style>Премиум, елегантна</style>
+        </band>
+    </smartwatch>
+</countries>

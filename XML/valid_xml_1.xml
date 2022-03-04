@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xml" href="txt_transformation_1.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="txt_transformation_2.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="HTML_transformation_2.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="HTML_transformation_3.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="HTML_transformation_4.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="XML_transformation_1.xsl" version="1.0"?>-->
+<!--<?xml-stylesheet type="text/xml" href="XML_transformation_2.xsl" version="1.0"?>-->
+<?xml-stylesheet type="text/xml" href="XML_transformation_1.xsl" version="1.0"?>
+
+
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0001</id>
+        <brand>Епъл </brand>
+        <model number="A2292">Уоч Серия 6</model>
+        <year>2020</year>
+        <gallery>
+            <frontImage>Images/frontImageS6.jpeg</frontImage>
+            <sideImage>Images/sideImageS6.jpeg</sideImage>
+            <onHandImage>Images/onHandS6.jpeg</onHandImage>
+        </gallery>
+        <price currency="Лева">899</price>
+        <colourWatch>Черен </colourWatch>
+        <storage>32ГБ</storage>
+        <RAM>1ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>44мм</size>
+                <type>OLED</type>
+                <resolution>448x368</resolution>
+                <isLTPO>Да</isLTPO>
+            </display>
+            <shape>Правоъгълен</shape>
+            <weight>36.5 грама</weight>
+            <caseMaterial>Алуминий серия 7000</caseMaterial>
+        </body>
+        <features ECG="Да" BloodO2="Да">
+            <battery>
+                <capacity>303.8 мАч</capacity>
+                <hoursRated>18 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Apple S6</CPU>
+            <OS compatibility="iOS устройства" version="8.3">WatchOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n/ac</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Епъл Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>S/M и M/L каишки</sizing>
+            <materialBand>Силиконова</materialBand>
+            <colour>Черен</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+
+    <smartwatch>
+        <id>0002</id>
+        <brand>Самсунг</brand>
+        <model number="SM-R870">Галакси Уоч 4</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageG4.jpeg</frontImage>
+            <sideImage>Images/sideImageG4.jpeg</sideImage>
+            <onHandImage>Images/onHandG4.jpeg</onHandImage>
+        </gallery>
+        <price currency="Лева">450</price>
+        <colourWatch>Сребрист </colourWatch>
+        <storage>16ГБ</storage>
+        <RAM>1.5ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>44мм</size>
+                <type>AMOLED</type>
+                <resolution>450x450</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Кръгъл</shape>
+            <weight>30.3 грама</weight>
+            <caseMaterial>Алуминий</caseMaterial>
+        </body>
+        <features ECG="Да" BloodO2="Да">
+            <battery>
+                <capacity>361 мАч</capacity>
+                <hoursRated>20 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Exynos W920</CPU>
+            <OS compatibility="Android устройства" version="3">WearOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Самсунг Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Универсален размер</sizing>
+            <materialBand>Силиконова</materialBand>
+            <colour>Бял</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+
+    <smartwatch>
+        <id>0003</id>
+        <brand>Епъл </brand>
+        <model number="А2475"> Уоч Серия 7</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageS7.jpeg</frontImage>
+            <sideImage>Images/sideImageS7.jpeg</sideImage>
+            <onHandImage>Images/onHandS7.jpeg</onHandImage>
+        </gallery>
+        <price currency="Евро">750</price>
+        <colourWatch>Златен </colourWatch>
+        <storage>32ГБ</storage>
+        <RAM>1ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>41мм</size>
+                <type>OLED</type>
+                <resolution>484x396</resolution>
+                <isLTPO>Да</isLTPO>
+            </display>
+            <shape>Правоъгълен</shape>
+            <weight>42.3 грама</weight>
+            <caseMaterial>Титан</caseMaterial>
+        </body>
+        <features ECG="Да" BloodO2="Да">
+            <battery>
+                <capacity>309 мАч</capacity>
+                <hoursRated>18 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Apple S7</CPU>
+            <OS compatibility="iOS устройства" version ="8.3">WatchOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n/ac</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Apple Pay Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Универсална, магнитно премиум закопчаване</sizing>
+            <materialBand>Кожена</materialBand>
+            <colour>Кафяв</colour>
+            <style>Премиум, елегантна</style>
+        </band>
+    </smartwatch>
+</smartwatchCatalog>

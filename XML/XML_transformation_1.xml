@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><smartwatches>
+    <smartwatch>
+        <info>
+            <brand>Епъл </brand>
+            <model>Уоч Серия 6</model>
+            <modelNumber>A2292</modelNumber>
+            <price>899</price>
+            <priceCurrency>Лева</priceCurrency>
+            <body>
+                <waterRating>50 метра</waterRating>
+            </body>
+        </info>
+        <connection>
+            <payment>Епъл Стандарт за безконтактно мобилно плащане</payment>
+        </connection>
+        <features>
+            <hasECG>Да</hasECG>
+            <hasBloodO2>Да</hasBloodO2>
+            <battery>
+                <capacityOfBattery>303.8 мАч</capacityOfBattery>
+            </battery>
+        </features>
+    </smartwatch>
+    <smartwatch>
+        <info>
+            <brand>Самсунг</brand>
+            <model>Галакси Уоч 4</model>
+            <modelNumber>SM-R870</modelNumber>
+            <price>450</price>
+            <priceCurrency>Лева</priceCurrency>
+            <body>
+                <waterRating>50 метра</waterRating>
+            </body>
+        </info>
+        <connection>
+            <payment>Самсунг Стандарт за безконтактно мобилно плащане</payment>
+        </connection>
+        <features>
+            <hasECG>Да</hasECG>
+            <hasBloodO2>Да</hasBloodO2>
+            <battery>
+                <capacityOfBattery>361 мАч</capacityOfBattery>
+            </battery>
+        </features>
+    </smartwatch>
+    <smartwatch>
+        <info>
+            <brand>Епъл </brand>
+            <model> Уоч Серия 7</model>
+            <modelNumber>А2475</modelNumber>
+            <price>750</price>
+            <priceCurrency>Евро</priceCurrency>
+            <body>
+                <waterRating>50 метра</waterRating>
+            </body>
+        </info>
+        <connection>
+            <payment>Apple Pay Стандарт за безконтактно мобилно плащане</payment>
+        </connection>
+        <features>
+            <hasECG>Да</hasECG>
+            <hasBloodO2>Да</hasBloodO2>
+            <battery>
+                <capacityOfBattery>309 мАч</capacityOfBattery>
+            </battery>
+        </features>
+    </smartwatch>
+</smartwatches>

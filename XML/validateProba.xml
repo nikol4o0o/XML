@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+<?xml-stylesheet type="text/xml" href="HTML_transformation_3.xsl" version="1.0"?>
+
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0008</id>
+        <brand>Samsung</brand>
+        <model number="SM-R890">Галакси Уоч4 Класик</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageS4Classic.jpeg</frontImage>
+            <sideImage>Images/sideImageS4Classic.jpeg</sideImage>
+            <onHandImage>Images/onHandS4Classic.jpeg</onHandImage>
+        </gallery>
+        <price currency="Евро">1000</price>
+        <colourWatch>Черен</colourWatch>
+        <storage>16ГБ</storage>
+        <RAM>1.5ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>46мм</size>
+                <type>AMOLED</type>
+                <resolution>450X450</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Кръгла</shape>
+            <weight>52 грама</weight>
+            <caseMaterial>Неръждаема стомана</caseMaterial>
+        </body>
+        <features ECG="Да" BloodO2="Да">
+            <battery>
+                <capacity>361 мАч</capacity>
+                <hoursRated>24 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Exynos W920 </CPU>
+            <OS compatibility="Android устройства" version="3">WearOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Samsung Pay Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Универсален размер</sizing>
+            <materialBand>Силиконова</materialBand>
+            <colour>Черен</colour>
+            <style>Елегантна</style>
+        </band>
+    </smartwatch>
+</smartwatchCatalog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0006</id>
+        <brand>Шиаоми</brand>
+        <model number="M2108W1">Смарт часовник ЕС1</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageS1.jpeg</frontImage>
+            <sideImage>Images/sideImageS1.jpeg</sideImage>
+            <onHandImage>Images/onHandS1.jpeg</onHandImage>
+        </gallery>
+        <price currency="Евро">150</price>
+        <colourWatch>Сребрист </colourWatch>
+        <storage>16ГБ</storage>
+        <RAM>1.5ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Да">
+                <size>46мм</size>
+                <type>AMOLED</type>
+                <resolution>466x466</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Кръгъл</shape>
+            <weight>41 грама</weight>
+            <caseMaterial>Неръждаема стомана</caseMaterial>
+        </body>
+        <features ECG="Не" BloodO2="Да">
+            <battery>
+                <capacity>470 мАч</capacity>
+                <hoursRated>288 часа</hoursRated>
+                <typeOfBattery>Литиево-полимерна</typeOfBattery>
+            </battery>
+            <CPU>Snapdragon </CPU>
+            <OS compatibility="iOS и Android устройства" version="3">WearOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n/ac</WLAN>
+            <bluetooth>5.2</bluetooth>
+            <payment>Гугъл Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Регулируема</sizing>
+            <materialBand>Кожена</materialBand>
+            <colour>Кафява</colour>
+            <style>Елегантна</style>
+        </band>
+    </smartwatch>
+</smartwatchCatalog>

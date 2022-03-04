@@ -1,0 +1,23 @@
+html,
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, sans-serif;
+    font-size: 24pt;
+    color: darkcyan;
+}
+
+h2{
+    text-align: center;
+    font-size: 16pt;
+    font-family: "Agency FB", sans-serif;
+    color: darkcyan
+}
+
+body{
+    background-color: burlywood;
+}
+
+b {
+    font-family: "American Typewriter";
+}

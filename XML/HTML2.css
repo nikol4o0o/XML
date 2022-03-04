@@ -1,0 +1,50 @@
+body {
+    background-color: burlywood;
+    font-family: Georgia, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+    font-family: Georgia, sans-serif;
+    font-size: 24pt;
+    color: #0c228c;
+}
+
+h4 {
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+    border-bottom: 2px double #003077;
+    font-size: 14pt;
+    padding: 10px;
+    color: white;
+}
+
+table {
+    border: 5px solid floralwhite;
+    background-color: darkcyan;
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 50%;
+}
+
+th {
+    background-color: #6c7ae0;
+    font-size: 18px;
+    color: #fff;
+    line-height: 2em;
+}
+
+td {
+    font-size: 15px;
+    color: #0c228c;
+    line-height: 2em;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f6ff;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0005</id>
+        <brand>Епъл</brand>
+        <model number="А2356">Серия СЕ</model>
+        <year>2020</year>
+        <gallery>
+            <frontImage>Images/frontImageSE.jpeg</frontImage>
+            <sideImage>Images/sideImageSE.jpeg</sideImage>
+            <onHandImage>Images/onHandSE.jpeg</onHandImage>
+        </gallery>
+        <price currency="Лева">629</price>
+        <colourWatch>Златен </colourWatch>
+        <storage>32ГБ</storage>
+        <RAM>1ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Не">
+                <size>44мм</size>
+                <type>OLED</type>
+                <resolution>448x368</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Правоъгълен</shape>
+            <weight>36.4 грама</weight>
+            <caseMaterial>Алуминий серия 7000</caseMaterial>
+        </body>
+        <features ECG="Не" BloodO2="Не">
+            <battery>
+                <capacity>303.8 мАч</capacity>
+                <hoursRated>18 часа</hoursRated>
+                <typeOfBattery>Литиево-йонна</typeOfBattery>
+            </battery>
+            <CPU>Apple S5</CPU>
+            <OS compatibility="iOS устройства" version="8.3">WatchOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n/ac</WLAN>
+            <bluetooth>5.0</bluetooth>
+            <payment>Епъл Стандарт за безконтактно мобилно плащане</payment>
+            <NFC>Да</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>S/M и M/L каишки</sizing>
+            <materialBand>Силиконова</materialBand>
+            <colour>Розова</colour>
+            <style>Спортна</style>
+        </band>
+    </smartwatch>
+    </smartwatchCatalog>

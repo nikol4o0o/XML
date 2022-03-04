@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE smartwatchCatalog SYSTEM "Smartwatches.dtd">
+<smartwatchCatalog>
+    <smartwatch>
+        <id>0004</id>
+        <brand>Huawei</brand>
+        <model number="MIL-B19">Watch GT3</model>
+        <year>2021</year>
+        <gallery>
+            <frontImage>Images/frontImageGT3.jpeg</frontImage>
+            <sideImage>Images/sideImageGT3.jpeg</sideImage>
+            <onHandImage>Images/onHandGt3.jpeg</onHandImage>
+        </gallery>
+        <price currency="Евро">210</price>
+        <colourWatch>Сребрист </colourWatch>
+        <storage>16ГБ</storage>
+        <RAM>4ГБ</RAM>
+        <body waterRating="50 метра">
+            <display alwaysON="Не">
+                <size>46мм</size>
+                <type>AMOLED</type>
+                <resolution>466x466</resolution>
+                <isLTPO>Не</isLTPO>
+            </display>
+            <shape>Кръгъл</shape>
+            <weight>42.6 грама</weight>
+            <caseMaterial>Неръждаема стомана, пластмасов гръб</caseMaterial>
+        </body>
+        <features ECG="Не" BloodO2="Да">
+            <battery>
+                <capacity>455 мАч</capacity>
+                <hoursRated>168 часа</hoursRated>
+                <typeOfBattery>Литиево-полимерна</typeOfBattery>
+            </battery>
+            <CPU>Kirin 9090</CPU>
+            <OS compatibility="iOS и Android устройства" version="2">HarmonyOS</OS>
+        </features>
+        <connection>
+            <WLAN>802.11 a/b/g/n/ac</WLAN>
+            <bluetooth>5.1</bluetooth>
+            <payment>Не поддържа безконтактно мобилно плащане</payment>
+            <NFC>Не</NFC>
+        </connection>
+        <band changeable="Да">
+            <sizing>Универсална регулируема</sizing>
+            <materialBand>Неръждаема стомана</materialBand>
+            <colour>Сребрист</colour>
+            <style>Елегантна</style>
+        </band>
+    </smartwatch>
+    </smartwatchCatalog>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT smartwatchCatalog (smartwatch+)>
+        <!ELEMENT smartwatch (id,brand, model, year, gallery, price, colourWatch, storage, RAM,  body, features, connection, band )>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT gallery (frontImage, sideImage, onHandImage)>
+        <!ELEMENT frontImage (#PCDATA)>
+        <!ELEMENT sideImage (#PCDATA)>
+        <!ELEMENT onHandImage (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT colourWatch (#PCDATA)>
+        <!ELEMENT storage (#PCDATA)>
+        <!ELEMENT RAM (#PCDATA)>
+        <!ELEMENT body (display, shape, weight, caseMaterial)>
+        <!ELEMENT display (size, type, resolution, isLTPO)>
+        <!ELEMENT size (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT resolution (#PCDATA)>
+        <!ELEMENT isLTPO (#PCDATA)>
+        <!ELEMENT shape (#PCDATA)>
+        <!ELEMENT weight (#PCDATA)>
+        <!ELEMENT caseMaterial (#PCDATA)>
+
+        <!ELEMENT features (battery, CPU, OS)>
+        <!ELEMENT battery (capacity, hoursRated, typeOfBattery)>
+        <!ELEMENT capacity (#PCDATA)>
+        <!ELEMENT hoursRated (#PCDATA)>
+        <!ELEMENT typeOfBattery (#PCDATA)>
+        <!ELEMENT CPU (#PCDATA)>
+        <!ELEMENT OS (#PCDATA) >
+
+        <!ELEMENT connection (WLAN, bluetooth, payment, NFC)>
+        <!ELEMENT WLAN (#PCDATA)>
+        <!ELEMENT bluetooth (#PCDATA)>
+        <!ELEMENT payment (#PCDATA)>
+        <!ELEMENT NFC (#PCDATA) >
+
+        <!ELEMENT band (sizing, materialBand, colour, style) >
+        <!ELEMENT sizing (#PCDATA)>
+        <!ELEMENT materialBand (#PCDATA)>
+        <!ELEMENT colour (#PCDATA)>
+        <!ELEMENT style (#PCDATA)>
+
+        <!ATTLIST body waterRating CDATA #REQUIRED>
+        <!ATTLIST model number CDATA #REQUIRED>
+        <!ATTLIST price currency (Лева|Евро) "Лева">
+        <!ATTLIST OS version CDATA #REQUIRED>
+        <!ATTLIST features ECG  (Да|Не) "Не">
+        <!ATTLIST features BloodO2 (Да|Не) "Не">
+        <!ATTLIST band changeable (Да|Не) "Не">
+        <!ATTLIST OS compatibility CDATA #REQUIRED>
+        <!ATTLIST display alwaysON  (Да|Не) "Да">
